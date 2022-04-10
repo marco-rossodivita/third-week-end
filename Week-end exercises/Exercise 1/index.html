@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="../Exercise 1/style.css">
+    <script src="../Exercise 1/Control.js "></script>
+    <title>Exercise 1</title>
+</head>
+
+
+
+
+<body>
+
+    <h1><em>Inserisci informazioni utente</em></h1>
+
+    <div class="container">
+
+        <form name="dati" method="get" onsubmit="control()">
+
+            <div class="row">
+                <div class="col-1">
+                    <label for="cognome">Cognome:</label>
+                </div>
+                <div class="col-2">
+                    <input type="text" id="fcognome" name="cognome" maxlength="40" placeholder="Inserisci cognome..">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-1">
+                    <label for="nome">Nome:</label>
+                </div>
+                <div class="col-2">
+                    <input type="text" id="fnome" name="nome" maxlength="30" placeholder="Inserisci nome..">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-1">
+                    <label for="matricola">Matricola:</label>
+                </div>
+                <div class="col-2">
+                    <input type="text" id="fmatricola" name="matricola" maxlength="12" placeholder="Inserisci matricola..">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-1">
+                    <label for="country">Regione di residenza:</label>
+                </div>
+                <div class="col-2">
+                    <select id="fregione" name="regione">
+                        <option value="--">--</option>
+                        <option value="abruzzo">Abruzzo</option>
+                        <option value="basilicata">Basilicata</option>
+                        <option value="calabria">Calabria</option>
+                        <option value="campania">Campania</option>
+                        <option value="emiliaromagna">Emilia Romagna</option>
+                        <option value="friuli-venezia-giulia">Friuli-Venezia Giulia</option>
+                        <option value="lazio">Lazio</option>
+                        <option value="liguria">Liguria</option>
+                        <option value="lombardia">Lombardia</option>
+                        <option value="marche">Marche</option>
+                        <option value="molise">Molise</option>
+                        <option value="piemonte">Piemonte</option>
+                        <option value="puglia">Puglia</option>
+                        <option value="sardegna">Sardegna</option>
+                        <option value="sicilia">Sicilia</option>
+                        <option value="toscana">Toscana</option>
+                        <option value="trentino-alto adige">Trentino-Alto Adige</option>
+                        <option value="umbria">Umbria</option>
+                        <option value="valle d'aosta">Valle d'Aosta</option>
+                        <option value="veneto">Veneto</option>
+                  </select>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-1">
+                    <label for="matricola">Email:</label>
+                </div>
+                <div class="col-2">
+                    <input type="text" id="femail" name="email" maxlength="30" placeholder="Inserisci email..">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-1">
+                    <label for="matricola">Telefono:</label>
+                </div>
+                <div class="col-2">
+                    <input type="text" id="ftelefono" name="telefono" maxlength="15" placeholder="Inserisci telefono..">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-1">
+                    <label for="richieste">Richieste particolari:</label>
+                </div>
+                <div class="col-2">
+                    <textarea id="frichieste" name="richieste" placeholder="Inserisci richieste particolari.." rows="12" cols="60"></textarea>
+                </div>
+            </div>
+
+            <div class="row">
+                <input type="reset" value="Reset">
+                <input type="submit" value="Invio">
+            </div>
+
+        </form>
+
+    </div>
+
+</body>
+
+</html>

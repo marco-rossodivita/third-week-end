@@ -1,0 +1,19 @@
+I'm the #1 heading -->  <!DOCTYPE> , INLINE
+
+I'm all read to link to another page -->    <a> , INLINE
+
+Emphasize text with me -->  <em> , BLOCK
+
+I'm a list, but I don't have my affairs in order -->    <ul>, INLINE
+
+I'm a real linebreaker -->  <br>, INLINE
+
+I'm an item that lives inside a list -->    <li>, BLOCK
+
+I keep my list items in order -->   <ol>, BLOCK
+
+I'm all about image -->     <img>, INLINE
+
+Quote inside a paragraph with me -->    <q>, INLINE
+
+Use me to quote text that stands on its own -->     <blockquote>, BLOCK
