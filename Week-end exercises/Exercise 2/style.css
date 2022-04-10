@@ -1,0 +1,75 @@
+body {
+    background-color: rgba(157, 188, 94, 255);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1 {
+    text-align: center;
+    color: rgba(13, 20, 8, 255);
+    font-size: 60px;
+}
+
+p {
+    text-align: justify;
+    color: rgba(13, 20, 8, 255);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    margin-left: 300px;
+}
+
+.container {
+    display: flex;
+    margin: 10px;
+    margin-left: 70px;
+    margin-right: 70px;
+    background-color: rgba(156, 188, 43, 255);
+    color: #374800;
+}
+
+h2 {
+    text-align: left;
+    margin-left: 30px;
+}
+
+.container section form div {
+    border: 2px solid #e0f3a1;
+    width: 1670px;
+    border-radius: 4px;
+    margin-left: 30px;
+    margin-bottom: 4px;
+    padding: 10px;
+    background-color: #bad06c;
+}
+
+label {
+    display: inline-block;
+    width: 60%;
+    font-size: larger;
+    color: #172302;
+}
+
+input {
+    display: inline-block;
+    clear: both;
+}
+
+input[type=text] {
+    border-color: antiquewhite;
+    width: 30%;
+    padding: 10px;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=checkbox] {
+    margin-left: 75%;
+}
+
+input[type=radio] {
+    margin-bottom: 1%;
+}
+
+::placeholder {
+    font-style: oblique;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}

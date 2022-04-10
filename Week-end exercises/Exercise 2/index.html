@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="../Exercise 2/style.css">
+    <title>Exercise 2</title>
+</head>
+
+
+<body>
+
+    <h1><strong>Questionario di raccolta dati per creare una rete</strong></h1>
+
+    <p>
+        <strong>
+                I dati indicati di seguito sono alcuni di quelli necessari da raccogliere prima di mettersi alle prese con la <br>
+                realizzazione di una rete. <br>
+                E' in primo luogo necessario capire le funzioni della rete, a cosa è dedicata? Quanto deve essere grande? <br>
+                Sappiamo già che ci sarà un solo modem/router? Oppure serve qualcosa di più complesso? <br>
+                Quindi è necessario capire quanti e quali sono i device che apparterranno alla rete? Quali sono le <br>
+                caratteristiche di questi device? Infine una volta raccolti tutti i dati si può finalmente partire con la <br>
+                progettazione della rete. <br>
+        </strong>
+
+    </p>
+
+
+    <div class="container">
+
+        <section class="dati">
+
+            <h2>Step 1: Dati della rete</h2>
+
+            <form id="dat" method="get">
+                <div>
+                    <label for="name">Nome e Cognome del responsabile</label>
+                    <input type="text" id="name" placeholder="Nome e Cognome" required>
+                </div>
+                <div>
+                    <label for="name">Indirizzo</label>
+                    <input type="text" id="indirizzo" placeholder="indirizzo" required>
+                </div>
+                <div>
+                    <label for="name">Numero delle sedi dell'azienda</label>
+                    <input type="text" id="sedi" placeholder="sedi" required>
+                </div>
+                <div>
+                    <label for="name">Data di Compilazione</label>
+                    <input type="text" id="data" placeholder="gg/mm/aaaa" required>
+                </div>
+            </form>
+
+            <h2>Step 2: Dimensioni della rete in base alla tipologia</h2>
+            <form id="dimension" method="get">
+                <div>
+                    <label for="lan">LAN</label>
+                    <input type="checkbox" id="lan">
+                </div>
+                <div>
+                    <label for="man">MAN</label>
+                    <input type="checkbox" id="man">
+                </div>
+                <div>
+                    <label for="wan">WAN</label>
+                    <input type="checkbox" id="wan">
+                </div>
+                <div>
+                    <label for="altro">Altro</label>
+                    <input type="text" id="altro" placeholder="Specificare" required>
+                </div>
+            </form>
+
+            <h2>Step 3: E' già nota la forma della rete (topologia)</h2>
+            <form id="top" method="get">
+                <div>
+                    <label for="stella">A stella</label>
+                    <input type="radio" id="stella">
+
+                    <label for="bus">A bus</label>
+                    <input type="radio" id="bus">
+
+                    <label for="albero">Ad albero</label>
+                    <input type="radio" id="albero">
+
+                    <label for="altro1">Altro</label>
+                    <input type="text" id="altro1" placeholder="Specificare" required>
+                </div>
+            </form>
+
+            <h2>Step 4: Caratteristiche del tuo PC</h2>
+            <form id="pc" method="get">
+                <div>
+                    <label for="rec"><h4>Recupera tutti i dati del tuo PC</h4></label>
+                </div>
+                <div>
+                    <label for="proc">Processore</label>
+                    <input type="text" id="proc" placeholder="Processore" required>
+                </div>
+                <div>
+                    <label for="ram">RAM</label>
+                    <input type="text" id="ram" placeholder="RAM" required>
+                </div>
+                <div>
+                    <label for="c">C</label>
+                    <input type="text" id="c" placeholder="c" required>
+                </div>
+                <div>
+                    <label for="d">D</label>
+                    <input type="text" id="d" placeholder="d" required>
+                </div>
+            </form>
+
+        </section>
+    </div>
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>

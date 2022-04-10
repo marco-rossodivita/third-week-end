@@ -53,7 +53,7 @@ let control = () => {
      */
     let regEm = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6}$/;
     if (!regEm.test(em)) {
-        alert("NOT VALID: Inserire email valido")
+        alert("NOT VALID: Inserire email valido");
     }
 
     /**

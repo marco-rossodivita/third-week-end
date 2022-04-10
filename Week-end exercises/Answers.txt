@@ -1,4 +1,4 @@
-I'm the #1 heading -->  <!DOCTYPE> , INLINE
+I'm the #1 heading -->  <h1> , INLINE
 
 I'm all read to link to another page -->    <a> , INLINE
 
